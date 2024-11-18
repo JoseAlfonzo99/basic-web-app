@@ -34,4 +34,12 @@ describe("QueryProcessor", () => {
             "JoseR"
         ));
     });
+
+    test('should return 50 plus 1', () => {
+        const query = "What is 50 plus 1?";
+        const response: string = QueryProcessor(query);
+        expect(response).toBe((
+            "51"
+        ));
+    });
 });
