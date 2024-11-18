@@ -35,11 +35,19 @@ describe("QueryProcessor", () => {
         ));
     });
 
-    test('should return 50 plus 1', () => {
+    test('should return 51', () => {
         const query = "What is 50 plus 1?";
         const response: string = QueryProcessor(query);
         expect(response).toBe((
             "51"
+        ));
+    });
+
+    test('should return 64', () => {
+        const query = "What is 92 minus 28?";
+        const response: string = QueryProcessor(query);
+        expect(response).toBe((
+            "64"
         ));
     });
 });

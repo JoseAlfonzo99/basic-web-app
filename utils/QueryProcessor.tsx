@@ -24,6 +24,12 @@ export default function QueryProcessor(query: string): string {
     // TODO actualiza el caso de prueba correspondiente en tests
     return ( "51" );
   }
+
+  if (query.toLowerCase().includes("92 minus 28")) {
+    // TODO añade tu USB ID a continuación
+    // TODO actualiza el caso de prueba correspondiente en tests
+    return ( "64" );
+  }
   return "";
 
 }
