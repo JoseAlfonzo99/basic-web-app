@@ -17,7 +17,7 @@ export default function QueryProcessor(query: string): string {
     // TODO añade tu USB ID a continuación
     // TODO actualiza el caso de prueba correspondiente en tests
     return ( "JoseR" );
-  };
+  }
 
   if (query.toLowerCase().includes("50 plus 1")) {
     // TODO añade tu USB ID a continuación
